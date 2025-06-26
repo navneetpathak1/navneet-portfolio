@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Navneet Pathak | Portfolio</title>
+  <meta name="description" content="Navneet Pathak - Full Stack Developer & Competitive Programmer Portfolio">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="container nav">
+      <div class="logo">Navneet Pathak</div>
+      <div class="nav-controls">
+        <button id="theme-toggle" aria-label="Toggle dark/light mode"></button>
+        <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#leetcode">LeetCode</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="container section hero">
+      <h1 class="hero-heading">Hi, I am Navneet Pathak</h1>
+      <div class="typewriter-container">
+        <span class="typewriter-text" id="typewriter"></span>
+        <span class="cursor">|</span>
+      </div>
+      <a href="assets/resume.pdf" class="btn" id="resume-btn" download>Download Resume</a>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="container section about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>
+          Hi! I'm <strong>Navneet Pathak</strong>, a passionate Full Stack Web Developer and Competitive Programmer. I'm currently pursuing my B.Tech from Graphic Era Hill University, graduating in 2026. I love building scalable applications and solving complex algorithmic challenges.
+        </p>
+        <p>
+          I specialize in the <strong>MERN stack</strong> (MongoDB, Express, React, Node.js) and have strong expertise in Data Structures & Algorithms using C++. I actively solve problems on <a href="https://leetcode.com/u/navneetpathak19/" target="_blank" rel="noopener">LeetCode</a> and participate in competitive programming contests to sharpen my problem-solving skills.
+        </p>
+        <p>
+          I'm passionate about backend systems, scalable applications, clean UI design, and cloud technologies like AWS. I enjoy building real-world projects, exploring cloud platforms, and collaborating on open-source contributions. My goal is to create efficient, user-friendly applications that solve real problems.
+        </p>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="container section skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <!-- Frontend Skills -->
+        <div class="skill-category">
+          <h3 class="category-title">Frontend</h3>
+          <div class="skill-badges">
+            <span class="skill-badge">HTML</span>
+            <span class="skill-badge">CSS</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">React</span>
+            <span class="skill-badge">Tailwind</span>
+            <span class="skill-badge">Bootstrap</span>
+          </div>
+        </div>
+        
+        <!-- Backend Skills -->
+        <div class="skill-category">
+          <h3 class="category-title">Backend</h3>
+          <div class="skill-badges">
+            <span class="skill-badge">Node.js</span>
+            <span class="skill-badge">Express.js</span>
+            <span class="skill-badge">MongoDB</span>
+            <span class="skill-badge">PostgreSQL</span>
+            <span class="skill-badge">Go (Golang)</span>
+          </div>
+        </div>
+        
+        <!-- Full Stack Skills -->
+        <div class="skill-category">
+          <h3 class="category-title">Full Stack</h3>
+          <div class="skill-badges">
+            <span class="skill-badge">MERN Stack</span>
+          </div>
+        </div>
+        
+        <!-- DevOps Skills -->
+        <div class="skill-category">
+          <h3 class="category-title">DevOps</h3>
+          <div class="skill-badges">
+            <span class="skill-badge">Git</span>
+            <span class="skill-badge">GitHub</span>
+            <span class="skill-badge">Postman</span>
+            <span class="skill-badge">AWS EC2</span>
+            <span class="skill-badge">AWS S3</span>
+          </div>
+        </div>
+        
+        <!-- Programming Skills -->
+        <div class="skill-category">
+          <h3 class="category-title">Programming</h3>
+          <div class="skill-badges">
+            <span class="skill-badge">C++</span>
+            <span class="skill-badge">DSA</span>
+            <span class="skill-badge">STL</span>
+            <span class="skill-badge">LeetCode</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="container section projects">
+      <h2>Projects</h2>
+      <div id="projects-list" class="projects-list">
+        <!-- Project cards will be injected by JS -->
+      </div>
+    </section>
+    <!-- LeetCode Section -->
+    <section id="leetcode" class="container section leetcode">
+      <h2>Competitive Programming</h2>
+      <p>
+        I regularly solve problems on <a href="https://leetcode.com/u/navneetpathak19/" target="_blank" rel="noopener">LeetCode</a> and participate in contests on <a href="https://codeforces.com/" target="_blank" rel="noopener">Codeforces</a>.
+      </p>
+      <a href="https://leetcode.com/u/navneetpathak19/" class="btn-outline" target="_blank" rel="noopener">View My LeetCode Profile</a>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="container section contact">
+      <h2>Contact Me</h2>
+      <div class="contact-content">
+        <p>Feel free to reach out to me for collaborations, opportunities, or just to say hello!</p>
+        <a href="mailto:navneetpathak1909@gmail.com" class="contact-email">
+          navneetpathak1909@gmail.com
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="https://github.com/navneetpathak1" target="_blank" rel="noopener" aria-label="GitHub" class="footer-link">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="icon">
+          </a>
+          <a href="https://www.linkedin.com/in/navneetpathak1909" target="_blank" rel="noopener" aria-label="LinkedIn" class="footer-link">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="icon">
+          </a>
+          <a href="https://leetcode.com/u/navneetpathak19/" target="_blank" rel="noopener" aria-label="LeetCode" class="footer-link">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/leetcode.svg" alt="LeetCode" class="icon">
+          </a>
+        </div>
+        <p class="footer-text">&copy; 2025 Navneet Pathak. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html> 
